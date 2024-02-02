@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Navbar */
+.nav {
+    color: rgb(224, 59, 59);
+    font-size: 1.5rem;
+}
+
+.navbar {
+    display: flex !important;
+    justify-content: center !important;
+    height: 5rem !important;
+    padding-left: 2rem !important;
+    /* font-size: 1.15rem !important; */
+}
+
+.nav-link {
+    color: black !important;
+    /* font-weight: 500 !important; */
+}
+
+/* footer */
+.f-links {
+    text-align: center;
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    flex-wrap: wrap;
+    border-top: solid 0.05rem rgb(173, 173, 173);
+    justify-content: center;
+}
+
+.f-webname {
+    font-weight: 500;
+}
+
+.f-info-links {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: black;
+    margin-right: 0.5rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-social-links {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.f-social-links i {
+    margin-right: 1rem;
+}
+
+
+/* listing index */
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    height: 20rem !important;
+}
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-body {
+    padding: 0 !important;
+    padding-left: 0.25rem !important;
+}
+
+.listing-links {
+    text-decoration: none;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* new index */
+.btn {
+    border: none !important;
+    color: aliceblue !important;
+    background-color: rgb(224, 59, 59) !important;
+}
+
+.btn:hover {
+    opacity: 1 !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(166, 22, 22) !important;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+/* show-page */
+.show-img {
+    height: 35vh !important;
+}
+
+.show-card-body {
+    padding: 1rem !important;
+}
+
+.show-links {
+    display: flex;
+}
+
+
+/* delete button of reviews in show.ejs */
+
+.btn-dark {
+    background-color: black !important;
+}
+
+
+
+
+/* Map */
+
+#map {
+    height: 400px;
+    width: 60vw;
+}
+
+/* navbar below filters */
+
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.filter {
+    text-align: center;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    opacity: 0.7;
+}
+
+.filter:hover {
+    opacity: 1;
+}
+
+.tax-info {
+    opacity: 0.9;
+    display: none;
+}
+
+/* navbar below filters search*/
+.btn-search {
+    background-color: rgb(224, 59, 59) !important;
+    color: white !important;
+    border: none;
+    border-radius: 25px;
+    width: 130px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.btn-search i {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.search {
+    border-radius: 25px !important;
+    padding: 0.5rem 4rem 0.5rem 4rem !important;
+    text-align: center;
+    font-size: 1rem !important;
+}
